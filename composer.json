@@ -1,0 +1,16 @@
+{
+    "name": "mickey/currency-trader-app",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+      "ext-curl": "*",
+        "ext-json": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
